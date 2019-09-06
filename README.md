@@ -46,4 +46,8 @@
          String result = new ActionEnter(request,jsconfigPaht).exec();
          return result;
       }
-    
+   
+   
+   第五步 未上传数据错误
+        
+        spring.servlet.multipart.enabled=false
